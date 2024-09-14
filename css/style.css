@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    background-color: #003366;
+    padding: 15px;
+    font-size: 18px;
+}
+header a:hover{
+    background-color: #0055cc;
+}
+footer a:hover{
+    color: #cccccc;
+}
+h1, h2{
+    color: #003366;
+}
+#home{
+    background-image: url('../img/c1.jpg');
+    background-attachment: fixed;
+    background-position: -200px -300px;
+    background-size: 2150px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+.home-text{
+    margin-top: 135px;;
+}
+#home h1{
+    font-size: 36px;
+}
+#home p{
+    font-size: 20px;
+    color: #272727;
+}
+#serv{
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.servico{
+    vertical-align: top;
+    background-color: #ffff;
+    margin-left: 15px;
+    padding: 20px;
+    width: 355px;
+    height: 300px;
+    border-radius: 10px; /*De acordo com o print do site no documento*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+}
+.servico img{
+    width: 235px;
+    height: 150px;
+}
+.servico-text{
+    margin-top: 10px;
+    padding: 10px;
+}
+#sobre{
+    text-align: center;
+    padding: 30px;
+}
+.sobre-img{
+    width: 40%;
+}
+.sobre-text{
+    vertical-align: top;
+    text-align: left;
+    width: 55%;
+}
+#home h1, .sobre-text h2{
+    padding: 10px 0;
+}
+.sobre-img img{
+    width: 400px;
+    border-radius: 10px;
+}
+ul{
+    text-align: center;
+}
+li, .sobre-text, .sobre-img, .servico, .home-text{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+}
+p{
+    color: #555555;
+}
